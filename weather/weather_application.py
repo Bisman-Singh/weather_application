@@ -116,7 +116,7 @@ class WeatherApp:
             self.result_label.config(text="City name should only contain alphabets.", font=("Times New Roman", 16))
             return
 
-        api_key = '6a12a94be547ebc2fcb1f281d0f64d40'
+        api_key = '6a12a94be547ebc2fcb1f281d0f64d40'    # -> Your API Key
         url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}"
 
         # Clear the result label and create a refresh button
