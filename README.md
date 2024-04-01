@@ -19,7 +19,8 @@ pytz library (for timezone manipulation)
 
 **Installation**
 1. Clone the repository to your local machine: git clone <repository_URL> [https://github.com/Bisman-Singh/weather_application.git]
-2. Navigate to the project directory: cd weather_application
+2. Generate your own API Key from openweathermap website and place it at the location API_Key in the source code.
+3. Navigate to the project directory: cd weather_application
 
 **Usage**
 1. Run the application by executing the Python script: python weather_application.py
