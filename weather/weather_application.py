@@ -12,8 +12,7 @@ class WeatherApp:
         # Set the background color for the root window
         master.config(bg="light blue")
         # Construct the relative path for the images directory
-        images_dir = os.path.join(os.getcwd(), "images")
-        
+        images_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "images")
         try:
             # Load weather icon images
             self.cloud_img = tk.PhotoImage(file=os.path.join(images_dir, "cloud.png"))
@@ -25,6 +24,7 @@ class WeatherApp:
         except tk.TclError:
             print("Could not load one or more images.")
             self.master.destroy()
+            return
         
         # Create a frame to hold the result widgets
         self.result_frame = tk.Frame(master, bg="light blue")
