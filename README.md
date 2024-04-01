@@ -1,14 +1,17 @@
 **Weather Application**
 
 **Overview**
+
 The Weather Application is a simple graphical user interface (GUI) application built using Python's Tkinter library. It provides users with weather information for a given city by fetching data from the OpenWeatherMap API.
 
 **Features**
+
 Displays weather information including temperature, pressure, humidity, wind speed, sunrise time, sunset time, and current time.
 Supports fetching weather data for any city specified by the user.
 Utilizes weather icon images to represent different weather conditions (e.g., cloudy, clear, rainy).
 
 **Requirements**
+
 Python 3.x
 Tkinter (typically included with Python installation)
 Requests library (for making HTTP requests)
@@ -25,5 +28,7 @@ pytz library (for timezone manipulation)
 4. Optionally, click the "Refresh" button to update the weather data.
 
 **Resources**
+
 OpenWeatherMap API: https://openweathermap.org/api
+
 Tkinter Documentation: https://docs.python.org/3/library/tkinter.html 
