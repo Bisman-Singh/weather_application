@@ -2,7 +2,7 @@
 
 **Overview**
 
-The Weather Application is a simple graphical user interface (GUI) application built using Python's Tkinter library. It provides users with weather information for a given city by fetching data from the OpenWeatherMap API.
+The Weather Application is a simple graphical user interface (GUI) application built using Python's Tkinter library. It provides users with weather information for a given city by fetching data from the OpenWeatherMap API. It also provides the auto-changing background images according to the weather to enhance the user experience.
 
 **Features**
 
